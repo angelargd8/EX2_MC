@@ -76,3 +76,5 @@ frase = playNotes(notas, tempo)
 frase.setInstrument(VIBRAPHONE)
 
 Play.midi(frase)
+Write.midi(frase, "AAngela_Garcia_melodia3.mid")
+print("Se creo .mid")

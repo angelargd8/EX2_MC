@@ -55,3 +55,5 @@ frase = playNotes(notas, tempo)
 frase.setInstrument(MARIMBA)
 
 Play.midi(frase)
+Write.midi(frase, "AAngela_Garcia_melodia2.mid")
+print("Se creo .mid")
